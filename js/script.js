@@ -9,4 +9,7 @@ $(document).ready(function () {
         pause: 8000,
         randomStart: true
       });
+
+  $('#container').flexgal();
+
     });
