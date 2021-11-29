@@ -185,3 +185,28 @@ i {
   top: 10px;
   z-index: 1;
 } */
+
+.about-wrapper {
+  height: 85vh;
+  width: calc(100% - 350px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.myphoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(/img/myphoto.jpg);
+  transform: scale(-1, 1);
+  background-size: cover;
+  background-position: center center;
+  z-index: 999;
+}
+
+.aboutme {
+  max-width: 50%;
+}
