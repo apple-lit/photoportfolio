@@ -6,7 +6,7 @@ $(document).ready(function () {
         auto: true,
         mode: 'fade',
         speed: 2000,
-        pause: 8000,
+        pause: 6000,
         randomStart: true
       });
 

@@ -34,9 +34,9 @@ body {
 }
 
 .sidebar {
+  min-width: 350px;
   width: 30%;
   padding: 0px 60px;
-  overflow: hidden;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -154,12 +154,29 @@ i {
 }
 
 .slide3 {
-  background-image: url(/img/slide3.jpg);
+  background-image: url(/img/family/family60.jpg);
 }
 
 .slide4 {
   background-image: url(/img/slide4.jpg);
 }
+
+.slide5 {
+  background-image: url(/img/family/family39.jpg);
+}
+
+.slide6 {
+  background-image: url(/img/family/family17.jpg);
+}
+
+.slide7 {
+  background-image: url(/img/family/family10.jpg);
+}
+
+.slide8 {
+  background-image: url(/img/family/family6.jpg);
+}
+
 
 .coming-soon {
   width: 100%;
